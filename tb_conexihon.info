@@ -1,0 +1,87 @@
+ ; Theme info
+base theme = tb_methys
+name = tb_conexihon
+description = Tema basado en TB_Methys de Drupal 7.x para Conexihon.info
+core = '7.x'
+engine = 'phptemplate'
+
+
+stylesheets[all][] = 'css/html-elements.css'
+stylesheets[all][] = 'css/slider.css'
+stylesheets[all][] = 'css/page.css'
+stylesheets[all][] = 'css/block.css'
+stylesheets[all][] = 'css/views.css'
+stylesheets[all][] = 'css/forms.css'
+stylesheets[all][] = 'css/articles.css'
+stylesheets[all][] = 'css/comments.css'
+stylesheets[all][] = 'css/forum.css'
+stylesheets[all][] = 'css/fields.css'
+stylesheets[all][] = 'css/panel-panes.css'
+stylesheets[all][] = 'css/navigation.css'
+stylesheets[all][] = 'css/fonts.css'
+stylesheets[all][] = 'css/blocks-style.css'
+
+;Javascripts
+scripts[] = 'js/jquery.matchHeights.min.js'
+
+; Seperate CSS3 to css3.css
+stylesheets[all][] = 'css/css3.css'
+
+; Stylesheets for Print Media
+stylesheets[print][] = 'css/print.css'
+
+; Conditional Stylesheets for IE
+stylesheets-conditional[IE][all][] = css/ie.css
+stylesheets-conditional[IE 9][all][] = css/ie7.css
+stylesheets-conditional[IE 7][all][] = css/ie7.css
+
+; Scripts in this theme
+scripts[] = 'js/tb_methys.js'
+scripts[] = 'js/stick.js'
+
+; Default fonts family
+default_fonts[sss] = 'Calibri, Candara, Helvetica Neue, Trebuchet MS, Arial, Helvetica, sans-serif'
+default_fonts[ssl] = 'Verdana, Geneva, Arial, Helvetica, sans-serif'
+default_fonts[a] = 'Arial, Helvetica, sans-serif'
+default_fonts[ss] = 'Garamond, Perpetua, Times New Roman, serif'
+default_fonts[sl] = 'Georgia, Baskerville, Palatino, Palatino Linotype, Book Antiqua, Times New Roman, serif'
+default_fonts[m] = 'Segoe UI, Myriad Pro, Myriad, Arial, Helvetica, sans-serif;'
+default_fonts[l] = 'Lucida Sans Unicode, Lucida Sans, Lucida Grande, Verdana, Geneva, sans-serif'
+default_fonts[ms] = 'Consolas, Monaco, Courier New, Courier, monospace'
+
+; Core regions
+regions[content] = 'Main content'
+regions[headline] = 'Headline'
+regions[header] = 'Header'
+regions[menu_bar] = 'Menu bar'
+regions[slideshow] = 'Slideshow'
+regions[feature] = 'Feature'
+regions[highlighted] = 'Highlighted'
+regions[footer] = 'Footer'
+regions[help] = 'Help'
+regions[page_top] = 'Page top'
+regions[page_bottom] = 'Page bottom'
+regions[mass_top] = 'Mass top'
+
+; Supported Skins
+skins[red] = 'Red Style'
+skins[blue] = 'Blue Style'
+skins[green] = 'Green Style'
+skins[purple] = 'Purple Style'
+
+
+; Superfish Styles
+superfish_styles[methys] = 'Methys Style for Superfish'
+settings[superfish_extend_style_1] = 'methys'
+superfish_styles[methys] = 'Methys Style for SF NavBar'
+settings[superfish_extend_style_2] = 'methys'
+
+; Sidebar regions
+regions[sidebar_first] = 'Sidebar first'
+regions[sidebar_second] = 'Sidebar second'
+
+; panel regions
+regions[panel_bottom_1] = 'Panel bottom column 1'
+regions[panel_bottom_2] = 'Panel bottom column 2'
+regions[panel_bottom_3] = 'Panel bottom column 3'
+regions[panel_bottom_4] = 'Panel bottom column 4'
