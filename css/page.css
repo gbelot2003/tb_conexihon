@@ -25,15 +25,18 @@
  * Main Containner
  */
 #main-wrapper {
-  background: url(../images/page-bg.gif) right 0 repeat-y;
+  /*background: url(../images/page-bg.gif) right 0 repeat-y;*/
+  background-color: #F5F5F5;
 }
 
 #main-wrapper .container {
   background: #fff;
   padding: 0;  
+	border-top: #F5F5F5 1px solid;
 }
 
 #main-wrapper .container-inner {
+
 }
 
 /**
